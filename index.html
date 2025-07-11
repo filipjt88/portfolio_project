@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip Jotić | Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
+                <img src="img/web-development.png" class="logo-icon" alt="hero">
+                <a href="#about" class="nav-link portfolio-logo">Filip Jotić | Portfolio</a>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact |</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <img src="img/Filip.png" alt="Filip Jotić" class="rounded-circle mb-4 shadow" width="200">
+                <h1 class="display-4 fw-bold">Hi, I'm Filip Jotić</h1>
+                <p class="lead">Frontend Developer | JavaScript & React & PHP Specialist</p>
+                <p class="lead"><b class="text-primary">Clean code</b></p>
+                <a href="#contact" class="btn btn-light m-2">Contact Me</a>
+                <a href="docs/Filip_Jotic_CV_English.pdf" target="_blank" class="btn btn-outline-light m-2">View CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Hero -->
+
+    <!-- About me -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <!-- Code Editor -->
+                <div class="col-lg-6">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <span class="circle red"></span>
+                            <span class="circle yellow"></span>
+                            <span class="circle green"></span>
+                            <span class="filename">profile.js</span>
+                        </div>
+                        <div class="editor-body">
+                            <pre><code><span class="keyword">const</span> profile = &#123;
+      name: <span class="value">'Filip Jotić'</span>,
+      role: <span class="value">'Frontend Developer'</span>,
+      experience: <span class="value">'3+ years'</span>,
+      location: <span class="value">'Serbia'</span>,
+      skills: [
+        <span class="value">'HTML5'</span>, <span class="value">'CSS3'</span>,<span class="value">'JavaScript'</span>, <span class="value">'React'</span>, 
+        <span class="value">'PHP'</span>, <span class="value">'Laravel'</span>,<span class="value">'MySQL'</span>,
+        <span class="value">'Bootstrap'</span>, <span class="value">'Tailwind'</span>,
+        <span class="value">'Git'</span>, <span class="value">'REST API'</span>, <span class="value">'WordPress'</span>
+      ]
+    &#125;;</code></pre>
+                        </div>
+                        <div class="editor-footer">
+                            <span>UTF-8</span><span>JavaScript</span><span>Ln 12, Col 1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Text -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4">About Me</h2>
+                    <p>I’m a frontend developer passionate about crafting clean and intuitive interfaces.
+                        With experience in fullstack projects and strong communication skills, I build digital
+                        solutions that connect with people.
+                    </p>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="d-flex align-items-start">
+                                <div class="me-3 about-icon">💡</div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Creative Problem Solver</h6>
+                                    <p class="mb-0">Strong in debugging and finding optimal solutions fast.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-start">
+                                <div class="me-3 about-icon">🧩</div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Fullstack Skills</h6>
+                                    <p class="mb-0">PHP & MySQL knowledge for complete web solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-4">
+                            <div class="d-flex align-items-start">
+                                <div class="me-3 about-icon">🗣️</div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Great Communicator</h6>
+                                    <p class="mb-0">Enjoy working with people and explaining ideas clearly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-4">
+                            <div class="d-flex align-items-start">
+                                <div class="me-3 about-icon">🚀</div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Always Improving</h6>
+                                    <p class="mb-0">Continuously learning and experimenting with new tech.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About me -->
+
+    <!-- Skills -->
+    <section id="skills-wrapper">
+        <div id="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <a class="nav-link" target="_blank" href="https://en.wikipedia.org/wiki/HTML5">
+                        <img src="img/html5.svg" alt="HTML5" />
+                    </a>
+                    <div class="skill-name" style="color: #E34F26;">HTML5</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="nav-link">
+                        <img src="img/css3.svg" alt="CSS3" />
+                    </a>
+                    <div class="skill-name" style="color: #1572B6;">CSS3</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="nav-link">
+                        <img src="img/javascript.svg" alt="JavaScript" />
+                    </a>
+                    <div class="skill-name" style="color: #F7DF1E;">JavaScript</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://react.dev/" target="_blank" class="nav-link">
+                        <img src="img/react.svg" alt="React" />
+                    </a>
+                    <div class="skill-name" style="color: #61DAFB;">React</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://www.php.net/" target="_blank" class="nav-link">
+                        <img src="img/php.svg" alt="PHP" />
+                    </a>
+                    <div class="skill-name" style="color: #777BB4;">PHP</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://www.mysql.com/" target="_blank" class="nav-link">
+                        <img src="img/mysql.svg" alt="MySQL" />
+                    </a>
+                    <div class="skill-name" style="color: #4479A1;">MySQL</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://git-scm.com/" target="_blank" class="nav-link">
+                        <img src="img/git.svg" alt="Git" />
+                    </a>
+                    <div class="skill-name" style="color: #F05032;">Git</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://wordpress.org/" target="_blank" class="nav-link">
+                        <img src="img/wordpress.svg" alt="WordPress" />
+                    </a>
+                    <div class="skill-name" style="color: #21759B;">WordPress</div>
+                </div>
+
+                <div class="skill-item">
+                    <a href="https://getbootstrap.com/" target="_blank" class="nav-link">
+                        <img src="img/bootstrap-logo.png" style="width:70px" alt="Bootstrap" />
+                    </a>
+                    <div class="skill-name" style="color: #7952B3;">Bootstrap</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Skills -->
+
+    <!-- Projects -->
+    <section id="projects-wrapper">
+        <div id="projects">
+            <h2>Featured projects</h2>
+            <div class="projects-container">
+                <div class="project-card mb-5">
+                    <a href="project_one.html" class="nav-link">
+                        <h3 class="mb-4">Project One</h3>
+                        <img src="img/blog1.jpg" alt="Project 1" />
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit obcaecati voluptatibus sunt
+                        repudiandae alias beatae laboriosam quas est eos!</p>
+                </div>
+                <div class="project-card mb-5">
+                    <a href="project_two.html" class="nav-link">
+                        <h3 class="mb-4">Project Two</h3>
+                        <img src="img/blog2.jpg" alt="Project 2" />
+                    </a>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eligendi exercitationem eius
+                        iure molestiae corporis magni rerum aut, eos dicta.</p>
+                </div>
+
+                <div class="project-card mb-5">
+                    <a href="project_three.html" class="nav-link">
+                        <h3 class="mb-4">Project Three</h3>
+                        <img src="img/blog3.jpg" alt="Project 3" />
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum officia deleniti nam
+                        porro sint, repudiandae eos aliquam reprehenderit! Ducimus labore voluptatibus expedita
+                        voluptate similique!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Projects -->
+
+    <!-- Blog -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="img/blog1.jpg" alt="Blog Image 1" class="blog-img" />
+                    <div class="blog-content">
+                        <h3 class="blog-title">How I Built My Portfolio</h3>
+                        <p class="blog-excerpt">A walkthrough of tools, design process, and performance tweaks I used.
+                        </p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="img/blog2.jpg" alt="Blog Image 2" class="blog-img" />
+                    <div class="blog-content">
+                        <h3 class="blog-title">Tips for Frontend Interviews</h3>
+                        <p class="blog-excerpt">Here's how I prepared and what helped me succeed in real-world
+                            interviews.
+                        </p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="img/blog3.jpg" alt="Blog Image 3" class="blog-img" />
+                    <div class="blog-content">
+                        <h3 class="blog-title">React vs Vanilla JS</h3>
+                        <p class="blog-excerpt">When should you reach for a framework, and when does plain JS win?</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Blog -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div>
+            <!-- LEFT SIDE: Contact Info -->
+            <div id="left-side">
+                <h2>Let’s Connect</h2>
+                <p>
+                    I'm always open to new opportunities, collaboration, or just a friendly tech chat. You can reach me
+                    through any of the following:
+                </p>
+
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <i class="fas fa-envelope" style="font-size: 20px; color: #0077cc;"></i>
+                    <a href="mailto:filipjotic.dev@gmail.com"
+                        style="text-decoration: none; color: #0077cc; font-weight: 600;">filipjotic.dev@gmail.com</a>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <i class="fas fa-location-dot" style="font-size: 20px; color: #0077cc;"></i>
+                    <span style="color: #333;">Serbia, Europe (Remote Friendly 🌍)</span>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <i class="fab fa-linkedin" style="font-size: 20px; color: #0077cc;"></i>
+                    <a href="https://www.linkedin.com/in/filipjotic" target="_blank"
+                        style="text-decoration: none; color: #0077cc; font-weight: 600;">linkedin.com/in/filipjotic</a>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <i class="fab fa-github" style="font-size: 20px; color: #0077cc;"></i>
+                    <a href="https://github.com/filipjt88" target="_blank"
+                        style="text-decoration: none; color: #0077cc; font-weight: 600;">github.com/filipjotic</a>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE: Illustration -->
+            <div style="flex: 1 1 350px; min-width: 280px;">
+                <img src="img/contact.jpeg" alt="Contact Image"
+                    style="width: 100%; max-width: 400px; border-radius: 12px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2025 Filip Jotić. All rights reserved.</p>
+            </div>
+
+            <div class="footer-center">
+                <nav class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#skills">Skills</a>
+                </nav>
+            </div>
+
+            <div class="footer-right">
+                <a href="https://github.com/filipjt88" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/filipjotić" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=filipjotic.dev@gmail.com" target="_blank"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- End of Js -->
+</body>
+
+</html>
