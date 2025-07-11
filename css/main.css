@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #0f172a;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.portfolio-logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* Hero */
+.code-editor {
+    background-color: #0f172a;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    color: #eee;
+    overflow: hidden;
+}
+
+.editor-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #444;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.red {
+    background-color: #ff5f56;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
+}
+
+.filename {
+    margin-left: auto;
+    color: #eee;
+    font-size: 14px;
+}
+
+.editor-body {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+.editor-body code {
+    white-space: pre-wrap;
+}
+
+.keyword {
+    color: #569cd6;
+}
+
+.value {
+    font-family: "JetBrains Mono", monospace;
+    color: rgb(52, 242, 0);
+}
+
+.editor-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+    background-color: #2d2d2d;
+    border-top: 1px solid #444;
+    font-size: 12px;
+    color: #eee;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.hero {
+    background: url('../img/hero.jpg') no-repeat bottom center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    z-index: 2;
+    text-align: center;
+}
+
+.logo-icon {
+    font-family: 'JetBrains', monospace;
+    font-weight: 900;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    width: 60px;
+    height: 50px;
+}
+
+/* Hero end */
+
+#about {
+    background-color: #eee;
+}
+
+.about-icon {
+    font-size: 2rem;
+    color: #0d6efd;
+}
+
+#skills-wrapper {
+    background-color: #0f172a;
+    color: #fff;
+}
+
+#skills {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+#skills h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Svaki skill item */
+.skill-item {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+/* Naziv skill-a */
+.skill-name {
+    font-weight: 600;
+}
+
+#projects-wrapper {
+    width: 100%;
+    background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+    padding: 100px;
+}
+
+#projects {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #eee;
+}
+
+#projects h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.project-images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    filter: brightness(0.9);
+}
+
+.project-card h3 {
+    margin: 10px 0 8px;
+    color: #000;
+}
+
+.project-card p {
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+.project-details h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.project-details p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #ccc;
+    text-align: center;
+}
+
+.projects_one {
+    padding: 70px;
+}
+
+
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Blog section */
+.blog-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Blog grid */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Blog card */
+.blog-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+.blog-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.blog-excerpt {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #6a11cb;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #2575fc;
+}
+
+
+#contact {
+    background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+    padding: 100px 20px;
+}
+
+#contact>div {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#left-side {
+    flex: 1 1 400px;
+    min-width: 300px;
+}
+
+#left-side h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+#left-side p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #0f172a;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer-center .footer-nav a {
+    margin: 0 15px;
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-center .footer-nav a:hover {
+    color: #38bdf8;
+}
+
+.footer-right a {
+    margin-left: 15px;
+    color: #cbd5e1;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+.footer-right a:hover {
+    color: #38bdf8;
+}
+
+
+/* Za uređaje izmedju 601px i 900px - 3 kolone */
+@media (min-width: 601px) and (max-width: 900px) {
+    .skills-container {
+        gap: 25px;
+    }
+
+    .skill-item {
+        width: 30%;
+        /* Tri kolone */
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .project-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card img {
+        height: 180px;
+    }
+
+    .project-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .project-card p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #projects-wrapper {
+        padding: 40px 15px;
+    }
+
+    .project-card {
+        padding: 16px;
+    }
+
+    .project-card img {
+        height: 160px;
+    }
+
+    .project-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .project-card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Za uređaje do 600px (mobilni) - 2 kolone */
+@media (max-width: 600px) {
+    .skills-container {
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .skill-item {
+        width: 45%;
+        /* Dve kolone */
+        margin-bottom: 25px;
+    }
+}
+
+/* Tablet i manje (ispod 992px) */
+@media (max-width: 991.98px) {
+
+    #about .col-md-5,
+    #about .col-md-7 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+}
+
+/* Mobilni (ispod 768px) */
+@media (max-width: 767.98px) {
+    #about .col-6 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right {
+        margin-top: 10px;
+    }
+
+    .footer-right a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-images img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-images img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-images img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-images img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-images img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-images img {
+        width: 100%;
+    }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .blog-img {
+        height: 180px;
+    }
+
+    .blog-title {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-content {
+        padding: 16px;
+    }
+
+    .blog-img {
+        height: 160px;
+    }
+
+    .blog-title {
+        font-size: 1.05rem;
+    }
+
+    .blog-excerpt {
+        font-size: 0.9rem;
+    }
+}
