@@ -9,7 +9,7 @@
 body {
     font-family: "JetBrains Mono", monospace;
     scroll-behavior: smooth;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 nav {
@@ -20,10 +20,18 @@ nav {
     color: #fff;
 }
 
+.nav-item a:hover {
+    color: #38bdf8;
+}
+
 .portfolio-logo {
     color: #fff;
     font-weight: 700;
     font-size: 1.1rem;
+}
+
+.portfolio-logo:hover {
+    color: #38bdf8;
 }
 
 /* Hero */
@@ -123,6 +131,7 @@ nav {
 }
 
 .hero-content {
+    padding-top: 120px;
     z-index: 2;
     text-align: center;
 }
@@ -143,6 +152,8 @@ nav {
 
 #about {
     background-color: #eee;
+    padding: 80px;
+
 }
 
 .about-icon {
@@ -271,7 +282,6 @@ nav {
     padding: 70px;
 }
 
-
 .back-link {
     display: inline-block;
     text-decoration: none;
@@ -348,7 +358,6 @@ nav {
     color: #2575fc;
 }
 
-
 #contact {
     background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
     padding: 100px 20px;
@@ -385,7 +394,7 @@ nav {
 .footer {
     background-color: #0f172a;
     color: #fff;
-    padding: 50px 20px;
+    padding: 40px;
 }
 
 .footer-container {
@@ -400,7 +409,6 @@ nav {
 
 .footer-left p {
     margin: 0;
-    font-size: 1rem;
 }
 
 .footer-center .footer-nav a {
@@ -426,187 +434,225 @@ nav {
 }
 
 
-/* Za uređaje izmedju 601px i 900px - 3 kolone */
-@media (min-width: 601px) and (max-width: 900px) {
-    .skills-container {
-        gap: 25px;
-    }
-
-    .skill-item {
-        width: 30%;
-        /* Tri kolone */
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 960px) {
-    .project-card {
-        width: 45%;
-    }
-}
-
-@media (max-width: 600px) {
-    .project-card {
-        width: 100%;
-    }
-}
+/* =========================
+   Responsive Styles
+========================= */
 
 @media (max-width: 768px) {
-    .projects-container {
-        grid-template-columns: 1fr;
-        gap: 20px;
+
+    /* General fix za horizontalni scroll */
+    body {
+        overflow-x: hidden;
     }
 
-    .project-card img {
-        height: 180px;
+    /* Navbar logo fix */
+    .navbar .navbar-brand {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .project-card h3 {
-        font-size: 1.2rem;
+    .portfolio-logo {
+        font-size: 1rem;
+        padding-left: 5px;
     }
 
-    .project-card p {
-        font-size: 0.95rem;
-    }
-}
-
-@media (max-width: 480px) {
-    #projects-wrapper {
-        padding: 40px 15px;
+    .logo-icon {
+        display: none;
     }
 
-    .project-card {
-        padding: 16px;
+    /* Hero section */
+    .hero-content {
+        text-align: center;
+        padding: 40px 20px;
     }
 
-    .project-card img {
-        height: 160px;
+    .hero-content img {
+        width: 150px;
     }
 
-    .project-card h3 {
-        font-size: 1.1rem;
+    .hero-content h1 {
+        font-size: 1.5rem;
     }
 
-    .project-card p {
-        font-size: 0.9rem;
-    }
-}
-
-/* Za uređaje do 600px (mobilni) - 2 kolone */
-@media (max-width: 600px) {
-    .skills-container {
-        gap: 20px;
-        justify-content: space-around;
+    .hero-content p.lead {
+        font-size: 1rem;
     }
 
-    .skill-item {
-        width: 45%;
-        /* Dve kolone */
-        margin-bottom: 25px;
+    .hero-content .btn {
+        margin: 8px 0;
     }
-}
 
-/* Tablet i manje (ispod 992px) */
-@media (max-width: 991.98px) {
-
-    #about .col-md-5,
-    #about .col-md-7 {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-        margin-bottom: 2rem;
+    /* About section */
+    #about {
         padding: 0;
     }
-}
 
-/* Mobilni (ispod 768px) */
-@media (max-width: 767.98px) {
-    #about .col-6 {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-        margin-bottom: 1.5rem;
+    #about .row {
+        flex-direction: column-reverse;
     }
-}
 
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
+    .code-editor {
+        margin-bottom: 30px;
+        overflow-x: auto;
+    }
+
+    .about-txt h2 {
+        padding-top: 40px;
+        font-size: 1.5rem;
         text-align: center;
     }
 
-    .footer-right {
-        margin-top: 10px;
+    .about-txt p {
+        font-size: 0.95rem;
     }
 
-    .footer-right a {
-        margin: 0 10px;
-    }
-}
-
-@media (max-width: 768px) {
-    .project-images img {
-        width: calc(50% - 10px);
-    }
-}
-
-@media (max-width: 480px) {
-    .project-images img {
+    .about-txt .row .col-6 {
         width: 100%;
     }
-}
 
-@media (max-width: 768px) {
-    .project-images img {
-        width: calc(50% - 10px);
+    /* Skills grid */
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
     }
-}
 
-@media (max-width: 480px) {
-    .project-images img {
+    .skill-item {
+        width: 80px;
+        text-align: center;
+    }
+
+    #skills h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Projects section */
+    #projects-wrapper {
+        padding: 0px;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-card img {
         width: 100%;
+        height: auto;
     }
-}
 
-@media (max-width: 768px) {
-    .project-images img {
-        width: calc(50% - 10px);
+    .project-card h3 {
+        font-size: 2rem;
     }
-}
 
-@media (max-width: 480px) {
-    .project-images img {
+    #projects h2 {
+        padding-top: 50px;
+    }
+
+    /* Blog cards */
+    .blog-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .blog-card img {
         width: 100%;
+        height: auto;
     }
-}
 
-/* Responsive tweaks */
-@media (max-width: 768px) {
+    .blog-title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .blog-excerpt {
+        font-size: 1.1rem;
+    }
+
     .section-title {
         font-size: 2rem;
     }
 
-    .blog-img {
-        height: 180px;
+    /* Contact section */
+    #contact>div {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
     }
 
-    .blog-title {
-        font-size: 1.15rem;
+    #left-side {
+        width: 100%;
+    }
+
+    #left-side h2 {
+        text-align: center;
+    }
+
+    #left-side div,
+    #left-side p {
+        font-size: 0.95rem;
+    }
+
+    #contact {
+        padding: 0;
+    }
+
+    #contact img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-nav a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    .footer-right a {
+        font-size: 20px;
+        margin: 0 8px;
     }
 }
 
-@media (max-width: 480px) {
-    .blog-content {
-        padding: 16px;
+@media (max-width: 1024px) and (min-width: 601px) {
+
+    #about .col-lg-6 {
+        max-width: 100%;
     }
 
-    .blog-img {
-        height: 160px;
+    #about .code-editor {
+        margin-bottom: 30px;
     }
 
-    .blog-title {
-        font-size: 1.05rem;
+    #about .editor-body pre {
+        white-space: pre-wrap;
+        word-break: break-word;
     }
 
-    .blog-excerpt {
-        font-size: 0.9rem;
+    #about .about-txt {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    #about .about-txt h2 {
+        font-size: 28px;
+    }
+
+    #about .about-txt .row>div {
+        justify-content: center;
+        text-align: left;
     }
 }
