@@ -1,3 +1,8 @@
+/* 
+Template name: Project one
+*/
+
+
 <?php wp_header(); ?>
 
     <div class="container projects_one">
