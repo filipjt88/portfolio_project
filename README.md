@@ -14,8 +14,8 @@ This project is an overview of my skills, experience and selected projects in th
 ## 🧩 Site structure
 
 - **Home** – Brief presentation and introduction
-- **Projects** – Details about my projects (Project One, Two, Three)
 - **About me** – Information about me, my interests and work approach
+- **Projects** – Details about my projects (Project One, Two, Three)
 - **Contact** – Contact form and links to social networks
 
 ## 🎯 Goal of the project
@@ -30,7 +30,7 @@ The purpose of this site is to:
 If you want to run the project locally:
 
 1. Clone the repository 
-`git clone https://github.com/filipjotic/portfolio.git`
+`git clone https://github.com/filipjotic/portfolio_project.git`
 
 2. Insert the folder into `wp-content/themes/` if you are using WordPress
 
@@ -40,8 +40,8 @@ If you want to run the project locally:
 
 If you want to contact me for cooperation, work or feedback, write to me via:
 
-- 📧 Email: [yourmail@email.com]
-- 🌐 Web: [www.filipjotic.dev](#) *(or your domain)*
+- 📧 Email: [filipjotic.dev@email.com]
+- 🌐 Web: [www.filipjotic.dev]
 - 💼 LinkedIn: [linkedin.com/in/filipjotic](#)
 
 ---
