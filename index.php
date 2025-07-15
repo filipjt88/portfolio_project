@@ -190,7 +190,7 @@
                 </div>
                 <div class="project-card mb-5">
                     <a href="project_two.html" class="nav-link">
-                        <h3 class="mb-4">Project Two</h3>
+                        <h3 class="mb-4">CRM aplication</h3>
                         <img src="img/blog2.jpg" alt="Project 2" />
                     </a>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eligendi exercitationem eius
@@ -199,7 +199,7 @@
 
                 <div class="project-card mb-5">
                     <a href="project_three.html" class="nav-link">
-                        <h3 class="mb-4">Project Three</h3>
+                        <h3 class="mb-4">Blog platform</h3>
                         <img src="img/blog3.jpg" alt="Project 3" />
                     </a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum officia deleniti nam

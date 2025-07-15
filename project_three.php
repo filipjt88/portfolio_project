@@ -3,7 +3,7 @@ Template name: Project three
 */
 <?php wp_header(); ?>
     <div class="container projects_one">
-        <h1 class="text-center mb-4">Project three</h1>
+        <h1 class="text-center mb-4">CRM aplication</h1>
         <dt class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum laborum architecto aspernatur
             dicta
             blanditiis labore perspiciatis nihil asperiores soluta quia, corrupti alias aliquid. Eveniet impedit
