@@ -1,5 +1,4 @@
    <?php get_header(); ?>
-   
        <!-- Hero -->
     <section id="home" class="hero">
         <div class="hero-overlay">
