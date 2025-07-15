@@ -182,7 +182,7 @@
             <div class="projects-container">
                 <div class="project-card mb-5">
                     <a href="project_one.html" class="nav-link">
-                        <h3 class="mb-4">Project One</h3>
+                        <h3 class="mb-4">Mini Web shop</h3>
                         <img src="img/blog1.jpg" alt="Project 1" />
                     </a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit obcaecati voluptatibus sunt
