@@ -4,10 +4,7 @@ Template name: Project three
 <?php wp_header(); ?>
     <div class="container projects_one">
         <h1 class="text-center mb-4">CRM aplication</h1>
-        <dt class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum laborum architecto aspernatur
-            dicta
-            blanditiis labore perspiciatis nihil asperiores soluta quia, corrupti alias aliquid. Eveniet impedit
-            mollitia dolor voluptate, nisi dolorum?</dt>
+        <dt class="mb-4">Customer management system with login, user roles, search/sort/filter, responsive UI, built using PHP MVC + Bootstrap.</dt>
         <div class="row">
             <div class="col-md-4">
                 <div class="project-images">

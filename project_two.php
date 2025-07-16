@@ -5,10 +5,7 @@ Template name: Project two
 <?php wp_header(); ?>
     <div class="container projects_one">
         <h1 class="text-center mb-4">Blog platform</h1>
-        <dt class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum laborum architecto aspernatur
-            dicta
-            blanditiis labore perspiciatis nihil asperiores soluta quia, corrupti alias aliquid. Eveniet impedit
-            mollitia dolor voluptate, nisi dolorum?</dt>
+        <dt class="mb-4">Personal blog engine with post creation, user registration/login, built using PHP and JavaScript.</dt>
         <div class="row">
             <div class="col-md-4">
                 <div class="project-images">
