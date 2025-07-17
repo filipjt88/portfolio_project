@@ -23,8 +23,6 @@ Template name: Project two
         Database Integration: All data stored in MySQL using PDO for secure queries
 
         Clean UI: Minimalistic design with focus on content readability
-
-
         </dt>
         <div class="row">
             <div class="col-md-4">
@@ -61,7 +59,6 @@ Template name: Project two
                 </div>
             </div>
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
-
         </div>
     </div>
 
