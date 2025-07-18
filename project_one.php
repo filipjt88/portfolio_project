@@ -27,16 +27,19 @@ Template name: Project one
             <div class="col-md-4">
                 <div class="project-images">
                     <img src="img/about_me.jpg" class="img-fluid" alt="Project image 1" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, non?</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
                     <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae recusandae maxime dicta provident nisi odit blanditiis deleniti molestias perferendis ipsam.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
                     <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, corrupti tempore dolorum neque ipsa recusandae!</p>
                 </div>
             </div>
         </div>
