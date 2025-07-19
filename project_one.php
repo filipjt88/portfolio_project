@@ -66,5 +66,4 @@ Template name: Project one
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
         </div>
     </div>
-
 <?php wp_footer(); ?>

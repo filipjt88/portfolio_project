@@ -24,23 +24,6 @@ Template name: Project two
 
         Clean UI: Minimalistic design with focus on content readability
         </dt>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="project-images">
-                    <img src="img/about_me.jpg" class="img-fluid" alt="Project image 1" />
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
-                </div>
-            </div>
-        </div>
         </br>
         <div class="row">
             <div class="col-md-4">
