@@ -1,6 +1,8 @@
 /* 
 Template name: Project three
 */
+
+<!-- Header -->
 <?php wp_header(); ?>
     <div class="container projects_one">
         <h1 class="text-center mb-4">CRM aplication</h1>
@@ -62,4 +64,5 @@ Template name: Project three
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
         </div>
     </div>
+    <!-- Footer -->
 <?php wp_footer(); ?>
