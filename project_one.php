@@ -12,16 +12,6 @@ Template name: Project one
             User Authentication: Registration, login, and protected routes for authenticated users
 
             Product Catalog: Dynamic product listing from the database
-
-            Shopping Cart: Add/remove items, adjust quantities, and view cart total
-
-            Order System: Place orders and store order history per user
-
-            Admin Panel: Add, update, and delete products; manage store inventory
-
-            Responsive Design: Mobile-friendly layout using Bootstrap and React components
-
-            Validation: Frontend and backend form validation for secure data handling
         </dt>
         <div class="row">
             <div class="col-md-4">
