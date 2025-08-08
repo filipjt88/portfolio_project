@@ -1,7 +1,6 @@
 /* 
 Template name: Project three
 */
-
 <!-- Header -->
 <?php wp_header(); ?>
     <div class="container projects_one">
