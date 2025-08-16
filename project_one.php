@@ -6,7 +6,6 @@ Template name: Project one
         <h1 class="text-center mb-4">Mini Web shop</h1>
         <dt class="mb-4">Fullstack eCommerce app with React frontend and PHP + MySQL backend. Features include cart, user auth, product management, and order system.
             This project is a fully functional fullstack eCommerce web application built with a React frontend and a PHP + MySQL backend. It allows users to browse products, add items to a cart, register and log in, and place orders. The system also includes an admin interface for managing products and viewing orders.
-            Product Catalog: Dynamic product listing from the database
         </dt>
         <div class="row">
             <div class="col-md-4">

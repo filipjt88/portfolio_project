@@ -6,8 +6,7 @@ Template name: Project two
         <h1 class="text-center mb-4">Blog platform</h1>
         <dt class="mb-4">Personal blog engine with post creation, user registration/login, built using PHP and JavaScript.
         This project is a custom blog platform built using PHP for the backend and JavaScript for frontend interactions. It allows users to register, log in, and create blog posts through a simple and intuitive interface.
-        The application features user authentication, post creation and management, and dynamic content rendering. All posts and user data are stored in a MySQL database, and server-side logic is handled using structured and secure PHP code. JavaScript is used to enhance interactivity on the client side.
-        Key Features:
+        The application features user authentication, post creation and management, and dynamic content rendering.
         </dt>
         </br>
         <div class="row">
