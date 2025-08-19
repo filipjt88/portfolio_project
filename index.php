@@ -1,3 +1,4 @@
+<!-- Header -->
    <?php get_header(); ?>
        <!-- Hero -->
     <section id="home" class="hero">
@@ -293,7 +294,8 @@
             </div>
         </div>
     </section>
-
     <!-- End of Contact -->
+
+<!-- Footer -->
  <?php get_footer(); ?>
  
