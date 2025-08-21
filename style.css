@@ -646,6 +646,7 @@ nav {
     }
 }
 
+/* Device 1024px and 601px */
 @media (max-width: 1024px) and (min-width: 601px) {
 
     #about .col-lg-6 {
