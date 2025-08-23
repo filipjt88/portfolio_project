@@ -28,4 +28,6 @@ Template name: Project two
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
         </div>
     </div>
+    <!-- Footer -->
 <?php wp_footer(); ?>
+<!-- End of footer -->
