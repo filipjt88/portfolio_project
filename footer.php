@@ -5,6 +5,7 @@
                 <p>&copy; 2025 Filip Jotić. All rights reserved.</p>
             </div>
 
+            <!-- Footer center -->
             <div class="footer-center">
                 <nav class="footer-nav">
                     <a href="#home">Home</a>
@@ -15,7 +16,7 @@
                     <a href="#">Contact ME</a>
                 </nav>
             </div>
-
+            <!-- End of footer center -->
             <div class="footer-right">
                 <a href="https://github.com/filipjt88" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/filipjotić" target="_blank"><i class="fab fa-linkedin"></i></a>
