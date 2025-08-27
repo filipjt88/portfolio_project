@@ -463,7 +463,7 @@ nav {
 /* End of Footer */
 
 /* =========================
-   Responsive
+   Responsive design
 ========================= */
 
 @media (max-width: 768px) {
@@ -676,3 +676,9 @@ nav {
         text-align: left;
     }
 }
+
+/* End of Device 1024px and 601px */
+
+/* =========================
+   End of Responsive design
+========================= */
