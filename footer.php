@@ -4,7 +4,7 @@
             <div class="footer-left">
                 <p>&copy; 2025 Filip Jotić. All rights reserved.</p>
             </div>
-
+            
             <!-- Footer center -->
             <div class="footer-center">
                 <nav class="footer-nav">
