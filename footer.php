@@ -17,6 +17,7 @@
                 </nav>
             </div>
             <!-- End of footer center -->
+             <!-- Footer right -->
             <div class="footer-right">
                 <a href="https://github.com/filipjt88" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/filipjotić" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -24,6 +25,7 @@
                         class="fas fa-envelope"></i></a>
             </div>
         </div>
+        <!-- End of footer right -->
     </footer>
     <!-- End of Footer -->
 
