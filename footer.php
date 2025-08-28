@@ -21,8 +21,7 @@
             <div class="footer-right">
                 <a href="https://github.com/filipjt88" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/filipjotić" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=filipjotic.dev@gmail.com" target="_blank"><i
-                        class="fas fa-envelope"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=filipjotic.dev@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
         <!-- End of footer right -->
