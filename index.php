@@ -47,7 +47,7 @@
                     </div>
                 </div>
 
-                <!-- About Text -->
+                <!-- About -->
                 <div class="col-lg-6 about-txt">
                     <h2 class="mb-4 fw-bold">About Me</h2>
                     <p class="text-muted">
