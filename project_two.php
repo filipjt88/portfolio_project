@@ -1,6 +1,8 @@
 /* 
 Template name: Project two
 */
+
+
 <?php wp_header(); ?>
     <div class="container projects_one">
         <h1 class="text-center mb-4">Blog platform</h1>
@@ -28,6 +30,7 @@ Template name: Project two
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
         </div>
     </div>
+
     <!-- Footer -->
 <?php wp_footer(); ?>
 <!-- End of footer -->

@@ -5,8 +5,7 @@ Template name: Project three
 <?php wp_header(); ?>
     <div class="container projects_one">
         <h1 class="text-center mb-4">CRM aplication</h1>
-        <dt class="mb-4">Customer management system with login, user roles, search/sort/filter, responsive UI, built using PHP MVC + Bootstrap.
-
+        <dt class="mb-4">Customer management system with login, user roles, search/sort/filter, responsive UI, built using PHP MVC + Bootstrap. </br>
         This project is a full-featured CRM system built using PHP, MySQL, JavaScript, and Bootstrap, designed to help businesses manage customer data, interactions, and internal workflows. The application follows the MVC architecture to ensure separation of concerns and clean code structure.
         </dt>
         <div class="row">
