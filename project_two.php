@@ -2,7 +2,6 @@
 Template name: Project two
 */
 
-
 <?php wp_header(); ?>
     <div class="container projects_one">
         <h1 class="text-center mb-4">Blog platform</h1>
