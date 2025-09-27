@@ -13,7 +13,7 @@ Template name: Project three
                 <div class="project-images">
                     <img src="img/about_me.jpg" class="img-fluid" alt="Project image 1" />
                 </div>
-            </div>
+            </div> 
             <div class="col-md-4">
                 <div class="project-images">
                     <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
