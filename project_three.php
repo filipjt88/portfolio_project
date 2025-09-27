@@ -16,12 +16,12 @@ Template name: Project three
             </div> 
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 2" />
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 3" />
                 </div>
             </div>
         </div>
@@ -29,17 +29,17 @@ Template name: Project three
         <div class="row">
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about_me.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about_me.jpg" class="img-fluid" alt="Project image 4" />
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 5" />
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 6" />
                 </div>
             </div>
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
