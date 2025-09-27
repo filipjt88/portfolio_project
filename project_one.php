@@ -32,7 +32,9 @@ Template name: Project one
             <div class="col-md-4">
                 <div class="project-images">
                     <img src="img/about_me.jpg" class="img-fluid" alt="Project image 1" />
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, placeat sapiente laborum nobis minima deleniti laudantium excepturi atque ipsam non?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, placeat sapiente laborum nobis minima deleniti laudantium excepturi atque ipsam non?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sed fugiat animi tenetur qui neque?
+                    </p>
                 </div>
             </div>
             <div class="col-md-4">
