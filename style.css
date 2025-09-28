@@ -165,6 +165,7 @@ nav {
 
 /* Hero end */
 
+
 /* About */
 #about {
     background-color: #eee;
@@ -253,6 +254,8 @@ nav {
     object-fit: cover;
 }
 
+/* Project card */
+
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -281,6 +284,9 @@ nav {
     font-size: 0.95rem;
 }
 
+/* End of Project card */
+
+/* Project details */
 .project-details h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -298,10 +304,16 @@ nav {
     text-align: center;
 }
 
+/* End of Project details */
+
+/* Project one */
 .projects_one {
     padding: 70px;
 }
+/* End of Project one */
 
+
+/* Back link */
 .back-link {
     display: inline-block;
     text-decoration: none;
@@ -310,6 +322,7 @@ nav {
     font-size: 1rem;
     margin-bottom: 20px;
 }
+/* End of Back link */
 
 /* End of Projects */
 

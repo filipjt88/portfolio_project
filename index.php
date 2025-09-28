@@ -249,7 +249,6 @@
             </div>
         </div>
     </section>
-
     <!-- End of Blog -->
 
     <!-- Contact -->
