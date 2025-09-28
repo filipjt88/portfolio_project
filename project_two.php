@@ -18,12 +18,12 @@ Template name: Project two
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 2" />
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 3" />
                 </div>
             </div>
             <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
