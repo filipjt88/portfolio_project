@@ -16,13 +16,13 @@ Template name: Project one
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 2" />
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae recusandae maxime dicta provident nisi odit blanditiis deleniti molestias perferendis ipsam.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 3" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, corrupti tempore dolorum neque ipsa recusandae!</p>
                 </div>
             </div>
@@ -31,7 +31,7 @@ Template name: Project one
         <div class="row">
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about_me.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about_me.jpg" class="img-fluid" alt="Project image 4" />
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, placeat sapiente laborum nobis minima deleniti laudantium excepturi atque ipsam non?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sed fugiat animi tenetur qui neque?
                     </p>
@@ -39,13 +39,13 @@ Template name: Project one
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 5" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sed fugiat animi tenetur qui neque?</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="project-images">
-                    <img src="img/about.jpg" class="img-fluid" alt="Project image 1" />
+                    <img src="img/about.jpg" class="img-fluid" alt="Project image 6" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolor unde culpa fugit aliquam totam officia.</p>
                 </div>
             </div>
