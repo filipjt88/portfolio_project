@@ -5,6 +5,7 @@ Description: Custom WordPress tema
 Version: 1.0
 */
 
+
 /* Jetrbains font */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
@@ -36,7 +37,6 @@ nav {
 /* End of Nav */
 
 /* Logo */
-
 .portfolio-logo {
     color: #fff;
     font-weight: 700;
@@ -255,7 +255,6 @@ nav {
 }
 
 /* Project card */
-
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
