@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 <!-- Header -->
    <?php get_header(); ?>
        <!-- Hero -->
@@ -8,7 +19,7 @@
                 <h1 class="fw-bold">Hi, I'm Filip Jotić</h1>
                 <p class="lead">Frontend Developer | JavaScript & React & PHP Specialist</p>
                 <a href="#contact" class="btn btn-light m-2">Contact Me</a>
-                <a href="docs/Filip_Jotic_CV_English.pdf" target="_blank" class="btn btn-outline-light m-2">View CV</a>
+                <a href="docs/Filip_Jotic_CV_English.pdf" target="_blank" class="btn btn-outline-light m-3">View CV</a>
             </div>
         </div>
     </section>
