@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 <!-- Header -->
    <?php get_header(); ?>
        <!-- Hero -->
@@ -92,7 +81,7 @@
                             <div class="d-flex align-items-start">
                                 <div class="me-3 fs-4">🗣️</div>
                                 <div>
-                                    <h6 class="fw-semibold mb-1">Excellent Communicator</h6>
+                                    <h6 class="fw-bold mb-1">Excellent Communicator</h6>
                                     <p class="mb-0 small text-muted">Clear in presenting ideas and collaborating with
                                         teams.</p>
                                 </div>
@@ -102,7 +91,7 @@
                             <div class="d-flex align-items-start">
                                 <div class="me-3 fs-4">🚀</div>
                                 <div>
-                                    <h6 class="fw-semibold mb-1">Driven to Grow</h6>
+                                    <h6 class="fw-bold mb-1">Driven to Grow</h6>
                                     <p class="mb-0 small text-muted">Always exploring new tools, tech, and approaches.
                                     </p>
                                 </div>
