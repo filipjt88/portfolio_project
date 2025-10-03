@@ -46,4 +46,3 @@ If you want to contact me for cooperation, work or feedback, write to me via:
 
 ---
 
-Thanks for looking at my portfolio! 👋
