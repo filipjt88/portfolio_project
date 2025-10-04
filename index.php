@@ -290,6 +290,7 @@
                     style="width: 100%; max-width: 400px; border-radius: 12px;">
             </div>
         </div>
+        <!-- End of RIGHT SIDE -->
     </section>
     <!-- End of Contact -->
 
