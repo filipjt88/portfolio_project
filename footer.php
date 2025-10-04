@@ -14,7 +14,6 @@
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a>
                     <a href="#blog">Blog</a>
-                    
                     <a href="#skills">Skills</a>
                     <a href="#">Contact ME</a>
                 </nav>
