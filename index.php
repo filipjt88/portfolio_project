@@ -1,6 +1,7 @@
 <!-- Header -->
    <?php get_header(); ?>
-       <!-- Hero -->
+
+    <!-- Hero -->
     <section id="home" class="hero">
         <div class="hero-overlay">
             <div class="hero-content">
