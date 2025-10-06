@@ -26,7 +26,7 @@ Template name: Project two
                     <img src="img/about.jpg" class="img-fluid" alt="Project image 3" />
                 </div>
             </div>
-            <a href="index.html#projects" class="back-link nav-link mt-4">← Back to Projects</a>
+            <a href="index.html#projects" class="back-link nav-link mt-5">← Back to Projects</a>
         </div>
     </div>
 
