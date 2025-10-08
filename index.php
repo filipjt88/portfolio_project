@@ -110,14 +110,14 @@
             <div class="skills-container">
                 <div class="skill-item">
                     <a class="nav-link" target="_blank" href="https://en.wikipedia.org/wiki/HTML5">
-                        <img src="img/html5.svg" alt="HTML5" />
+                        <img src="img/html5.svg" alt="HTML 5" />
                     </a>
                     <div class="skill-name" style="color: #E34F26;">HTML5</div>
                 </div>
 
                 <div class="skill-item">
                     <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="nav-link">
-                        <img src="img/css3.svg" alt="CSS3" />
+                        <img src="img/css3.svg" alt="CSS 3" />
                     </a>
                     <div class="skill-name" style="color: #1572B6;">CSS3</div>
                 </div>
