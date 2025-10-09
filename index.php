@@ -109,7 +109,9 @@
             <h2>Skills & Technologies</h2>
             <div class="skills-container">
                 <div class="skill-item">
-                    <a class="nav-link" target="_blank" href="https://en.wikipedia.org/wiki/HTML5">
+                    <a class="nav-link" target="_blank" href="https://en.
+                    
+                    wikipedia.org/wiki/HTML5">
                         <img src="img/html5.svg" alt="HTML 5" />
                     </a>
                     <div class="skill-name" style="color: #E34F26;">HTML5</div>
