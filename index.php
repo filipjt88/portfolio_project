@@ -296,6 +296,7 @@
         <!-- End of RIGHT SIDE -->
     </section>
     <!-- End of Contact -->
+     <!-- End of RIGHT SIDE: Illustration -->
 
 <!-- Footer -->
  <?php get_footer(); ?>
