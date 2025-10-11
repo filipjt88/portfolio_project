@@ -18,7 +18,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
+            <a class="navbar-brand d-flex align-items-center gap-3 fw-bold" href="#">
                 <img src="img/web-development.png" class="logo-icon" alt="hero">
                 <a href="#about" class="nav-link portfolio-logo">Filip Jotić | Portfolio</a>
             </a>
