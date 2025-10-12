@@ -124,6 +124,8 @@ nav {
     font-family: "JetBrains Mono", monospace;
 }
 
+/* Hero */
+
 .hero {
     background: url('../img/hero.jpg') no-repeat bottom center;
     background-size: cover;
@@ -150,6 +152,8 @@ nav {
     z-index: 2;
     text-align: center;
 }
+
+/* End of Hero */
 
 .logo-icon {
     font-family: 'JetBrains', monospace;
